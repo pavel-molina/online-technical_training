@@ -23,7 +23,7 @@
     'depends': ['base'],
     
     'data': [
-        
+        'views/course_views.xml'
         
     ],
     
