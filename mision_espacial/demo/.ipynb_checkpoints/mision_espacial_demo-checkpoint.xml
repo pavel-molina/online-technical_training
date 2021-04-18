@@ -2,27 +2,27 @@
 <odoo>
     <data noupdate="1">
         <record model="mision.nave" id="nave_espacial_1">
-            <field name="ancho">40m</field>
-            <field name="alto">100m</field>
-            <field name="peso">365t</field>
+            <field name="ancho">40.00</field>
+            <field name="alto">100.00</field>
+            <field name="peso">365.00</field>
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">7</field>  
         </record>    
         
         <record model="mision.nave" id="nave_espacial_2">
-            <field name="ancho">50m</field>
-            <field name="alto">112m</field>
-            <field name="peso">410t</field>
+            <field name="ancho">50.00</field>
+            <field name="alto">112.00</field>
+            <field name="peso">410.00</field>
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">10</field>
         </record> 
         
         <record model="mision.nave" id="nave_espacial_3">
-            <field name="ancho">30m</field>
-            <field name="alto">90m</field>
-            <field name="peso">200t</field>
+            <field name="ancho">30.00</field>
+            <field name="alto">90.00</field>
+            <field name="peso">200.00</field>
             <field name="tipo_combustible">hidrogeno_liquido</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">3</field>
