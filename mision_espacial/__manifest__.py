@@ -27,6 +27,7 @@
     ],
     
     'demo':[
+        'demo/mision_espacial_demo.xml',
         
         
     ],
