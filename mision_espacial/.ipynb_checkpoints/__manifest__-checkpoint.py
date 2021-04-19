@@ -22,7 +22,8 @@
     'depends': ['base'],
     
     'data': [
-       
+        'security/mision_espacial_security.xml',
+        'security/ir.model.access.csv',
         
     ],
     
