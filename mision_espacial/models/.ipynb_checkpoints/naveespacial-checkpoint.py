@@ -32,3 +32,9 @@ class NaveEspacial(models.Model):
     
     active = fields.Boolean(string='Active', default=True)
     
+    
+    @api.constrains('ancho', 'longuitud')
+    def _check_ancho(self):
+       for record in self:
+            if record.ancho > record.longuitud:
+                raise UserError('El ancho de la nave no puede ser mayo que la longuitud')
