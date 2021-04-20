@@ -7,7 +7,7 @@ class NaveEspacial(models.Model):
     _name = "mision.nave"
     _description = "Nave Espacial"
     
-    nombre = fields.String(string="Nombre", required=True)
+    nombre = fields.Char(string="Nombre", required=True)
     
     ancho = fields.Float(string="Ancho", required=True)
     
@@ -18,17 +18,17 @@ class NaveEspacial(models.Model):
     tipo_combustible = fields.Selection(string='Tipo de Combustible',
                                         selection=[('queroseno','Queroseno'),
                                                   ('hidrogeno_liquido','Hidrógeno Líquido')],
-                                        required=True,
                                         copy=False)
     
     tipo_nave = fields.Selection(string='Tipo de Nave',
                                  selection=[('lanzadera','Lanzadera'),
                                             ('no_tripulada','No Tripulada'),
                                             ('tripulada','Tripulada')],
-                                 required=True,
                                  copy=False)
     
     numero_pasajeros = fields.Integer(string="Número de pasajeros")
+    
+    descripcion = fields.Text(string='Descripcion')
     
     active = fields.Boolean(string='Active')
     
