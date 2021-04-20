@@ -9,8 +9,7 @@
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">7</field>  
-            <field name="descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            </field>  
+            <field name="descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</field>  
         </record>    
         
         <record model="mision.nave" id="nave_espacial_2">
@@ -21,8 +20,7 @@
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">10</field>
-             <field name="descripcion">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
-            </field>
+             <field name="descripcion">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</field>
         </record> 
         
         <record model="mision.nave" id="nave_espacial_3">
@@ -32,8 +30,7 @@
             <field name="peso">200.00</field>
             <field name="tipo_combustible">hidrogeno_liquido</field>
             <field name="tipo_nave">tripulada</field>
-             <field name="descripcion">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable 
-            </field>
+             <field name="descripcion">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</field>
         </record> 
         
     </data>
