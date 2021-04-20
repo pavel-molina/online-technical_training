@@ -7,6 +7,7 @@ class NaveEspacial(models.Model):
     _name = "mision.nave"
     _description = "Nave Espacial"
     
+    nombre = fields.Char(string="Nombre", required=True)
     
     ancho = fields.Float(string="Ancho", required=True)
     
@@ -28,6 +29,8 @@ class NaveEspacial(models.Model):
                                  copy=False)
     
     numero_pasajeros = fields.Integer(string="Número de pasajeros")
+    
+    descripcion = fields.Text(string='Descripcion')
     
     active = fields.Boolean(string='Active')
     

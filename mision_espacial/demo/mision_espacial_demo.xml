@@ -2,30 +2,38 @@
 <odoo>
     <data noupdate="1">
         <record model="mision.nave" id="nave_espacial_1">
+            <field name="nombre">Space XX</field>
             <field name="ancho">40.00</field>
             <field name="alto">100.00</field>
             <field name="peso">365.00</field>
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">7</field>  
+            <field name="descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </field>  
         </record>    
         
         <record model="mision.nave" id="nave_espacial_2">
+            <field name="nombre">Space XXX</field>
             <field name="ancho">50.00</field>
             <field name="alto">112.00</field>
             <field name="peso">410.00</field>
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
             <field name="numero_pasajeros">10</field>
+             <field name="descripcion">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            </field>
         </record> 
         
         <record model="mision.nave" id="nave_espacial_3">
+            <field name="nombre">Space X</field>
             <field name="ancho">30.00</field>
             <field name="alto">90.00</field>
             <field name="peso">200.00</field>
             <field name="tipo_combustible">hidrogeno_liquido</field>
             <field name="tipo_nave">tripulada</field>
-            <field name="numero_pasajeros">3</field>
+             <field name="descripcion">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable 
+            </field>
         </record> 
         
     </data>

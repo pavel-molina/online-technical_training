@@ -7,6 +7,7 @@ class NaveEspacial(models.Model):
     _name = "mision.nave"
     _description = "Nave Espacial"
     
+    nombre = fields.String(string="Nombre", required=True)
     
     ancho = fields.Float(string="Ancho", required=True)
     
