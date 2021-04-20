@@ -28,7 +28,7 @@
             <field name="ancho">30.00</field>
             <field name="alto">90.00</field>
             <field name="peso">200.00</field>
-            <field name="tipo_combustible">hidrogeno_liquido</field>
+            <field name="tipo_combustible">hidrogenoliquido</field>
             <field name="tipo_nave">tripulada</field>
              <field name="descripcion">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</field>
         </record> 
