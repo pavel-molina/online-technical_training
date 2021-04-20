@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
+from odoo.exceptions import UserError, ValidationError
 
 class NaveEspacial(models.Model):
     
@@ -37,4 +38,4 @@ class NaveEspacial(models.Model):
     def _check_ancho(self):
        for record in self:
             if record.ancho > record.longuitud:
-                raise UserError('El ancho de la nave no puede ser mayo que la longuitud')
+                raise UserError('El ancho de la nave no puede ser mayor que la longuitud')
