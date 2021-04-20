@@ -24,7 +24,6 @@
     'data': [   
         'security/mision_espacial_security.xml',
         'security/ir.model.access.csv',
-        'demo/mision_espacial_demo.xml',
         'views/mision_espacial_menuitems.xml',
         'views/nave_views.xml',
         

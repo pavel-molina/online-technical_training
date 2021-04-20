@@ -4,7 +4,7 @@
         <record model="mision.nave" id="nave_espacial_1">
             <field name="nombre">Space XX</field>
             <field name="ancho">40.00</field>
-            <field name="alto">100.00</field>
+            <field name="longuitud">100.00</field>
             <field name="peso">365.00</field>
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
@@ -15,7 +15,7 @@
         <record model="mision.nave" id="nave_espacial_2">
             <field name="nombre">Space XXX</field>
             <field name="ancho">50.00</field>
-            <field name="alto">112.00</field>
+            <field name="longuitud">112.00</field>
             <field name="peso">410.00</field>
             <field name="tipo_combustible">queroseno</field>
             <field name="tipo_nave">tripulada</field>
@@ -26,9 +26,9 @@
         <record model="mision.nave" id="nave_espacial_3">
             <field name="nombre">Space X</field>
             <field name="ancho">30.00</field>
-            <field name="alto">90.00</field>
+            <field name="longuitud">90.00</field>
             <field name="peso">200.00</field>
-            <field name="tipo_combustible">hidrogenoliquido</field>
+            <field name="tipo_combustible">hidrogeno_liquido</field>
             <field name="tipo_nave">tripulada</field>
              <field name="descripcion">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</field>
         </record> 

@@ -14,7 +14,7 @@
                                <field name="ancho" />
                            </group>
                            <group>
-                               <field name="alto" />
+                               <field name="longuitud" />
                            </group>
                            <group>
                                <field name="peso" />

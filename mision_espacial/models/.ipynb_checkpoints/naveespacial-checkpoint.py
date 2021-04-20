@@ -11,18 +11,18 @@ class NaveEspacial(models.Model):
     
     ancho = fields.Float(string="Ancho", required=True)
     
-    alto = fields.Float(string="Alto", required=True)
+    longuitud = fields.Float(string="Longuitud", required=True)
     
     peso = fields.Float(string="Peso", required=True)
     
     tipo_combustible = fields.Selection(string='Tipo de Combustible',
                                         selection=[('queroseno','Queroseno'),
-                                                  ('hidrogenoliquido','Hidrógeno Líquido')],
+                                                  ('hidrogeno_liquido','Hidrógeno Líquido')],
                                         copy=False)
     
     tipo_nave = fields.Selection(string='Tipo de Nave',
                                  selection=[('lanzadera','Lanzadera'),
-                                            ('notripulada','No Tripulada'),
+                                            ('no_tripulada','No Tripulada'),
                                             ('tripulada','Tripulada')],
                                  copy=False)
     
