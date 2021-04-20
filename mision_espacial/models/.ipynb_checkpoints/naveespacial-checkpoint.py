@@ -17,12 +17,12 @@ class NaveEspacial(models.Model):
     
     tipo_combustible = fields.Selection(string='Tipo de Combustible',
                                         selection=[('queroseno','Queroseno'),
-                                                  ('hidrogeno_liquido','Hidrógeno Líquido')],
+                                                  ('hidrogenoliquido','Hidrógeno Líquido')],
                                         copy=False)
     
     tipo_nave = fields.Selection(string='Tipo de Nave',
                                  selection=[('lanzadera','Lanzadera'),
-                                            ('no_tripulada','No Tripulada'),
+                                            ('notripulada','No Tripulada'),
                                             ('tripulada','Tripulada')],
                                  copy=False)
     
