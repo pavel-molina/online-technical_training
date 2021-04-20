@@ -30,5 +30,5 @@ class NaveEspacial(models.Model):
     
     descripcion = fields.Text(string='Descripcion')
     
-    active = fields.Boolean(string='Active')
+    active = fields.Boolean(string='Active', default=True)
     
