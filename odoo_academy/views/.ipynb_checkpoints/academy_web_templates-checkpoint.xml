@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <data>
+         <template id="course_website">
+             <t t-call="website.layout">
+                 <t t-set="title">Academy</t>
+                 <div class="oe_structure">
+                     <div class="container">
+                         <h1>Courses</h1>
+                         
+                         
+                         
+                     </div>    
+                 </div>
+             </t>    
+         </template>
+    </data>    
+</odoo>    
+    
