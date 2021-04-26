@@ -39,6 +39,7 @@ class Session(models.Model):
                                        ('done','Done'),
                                        ('canceled','Canceled')
                                       ],
+                            default='draft',
                             required=True)
     
     
