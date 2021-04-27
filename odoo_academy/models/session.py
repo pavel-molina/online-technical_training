@@ -38,9 +38,8 @@ class Session(models.Model):
                                        ('open','In Progress'),
                                        ('done','Done'),
                                        ('canceled','Canceled')
-                                      ],
-                            default='draft',
-                            required=True)
+                                      ]
+                            )
     
     
     @api.depends('start_date','duration')
