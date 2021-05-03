@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record model="biblioteca.libro" id="libro_1">
+            <field name="titulo">Estudio en Escarlata</field>
+            <field name="autor">Arthur Conan Doyle</field>
+            <field name="editorial">Planeta</field>
+            <field name="anio_edicion">2015</field>
+            <field name="isbn">1234567890</field>
+            <field name="genero">Novela, Misterio</field>
+            <field name="numero_paginas">100</field>  
+         </record>    
+        
+        <record model="biblioteca.libro" id="libro_2">
+            <field name="titulo">El Signo de los cuatro</field>
+            <field name="autor">Arthur Conan Doyle</field>
+            <field name="editorial">Planeta</field>
+            <field name="anio_edicion">2019</field>
+            <field name="isbn">5678935789</field>
+            <field name="genero">Novela, Misterio</field>
+            <field name="numero_paginas">90</field>  
+         </record>    
+        
+        <record model="biblioteca.libro" id="libro_3">
+            <field name="titulo">La Rebelión de la Granja</field>
+            <field name="autor">George Orwell</field>
+            <field name="editorial">Trillas</field>
+            <field name="anio_edicion">2015</field>
+            <field name="isbn">37693846584</field>
+            <field name="genero">Novela, Ficción política, Sátira política</field>
+            <field name="numero_paginas">112</field>  
+         </record>   
+        
+        <record model="biblioteca.libro" id="libro_4">
+            <field name="titulo">Caballo de Troya 1</field>
+            <field name="autor">JJ Benítez</field>
+            <field name="editorial">Planeta</field>
+            <field name="anio_edicion">1984</field>
+            <field name="isbn">03647583737</field>
+            <field name="genero">Novela, Ciencia ficción, Ficción histórica</field>
+            <field name="numero_paginas">300</field>  
+         </record>   
+        
+        <record model="biblioteca.libro" id="libro_5">
+            <field name="titulo">La física del futuro</field>
+            <field name="autor">Michio Kaku</field>
+            <field name="editorial">DEBATE</field>
+            <field name="anio_edicion">211</field>
+            <field name="isbn">23795748596</field>
+            <field name="genero">Divulgación científica</field>
+            <field name="numero_paginas">416</field>  
+         </record>   
+        
+    </data>
+</odoo>

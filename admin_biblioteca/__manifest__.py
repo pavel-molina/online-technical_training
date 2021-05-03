@@ -25,7 +25,7 @@
     ],
     
     'demo':[
-        
+        'demo/admin_biblioteca_demo.xml',
         
     ],
     
