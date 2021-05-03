@@ -24,7 +24,7 @@
     ],
     
     'demo':[
-        
+        'demo/tienda_cooperativa.xml',
         
     ],
     

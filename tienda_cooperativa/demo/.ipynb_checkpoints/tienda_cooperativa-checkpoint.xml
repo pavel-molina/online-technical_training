@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record model="tienda.tarea" id="tarea_1">
+            <field name="nombre_tarea">Limpieza</field>
+            <field name="descripcion">Limpiar todos los pisos</field>
+            <field name="tipo_tarea">Intendencia</field>
+            <field name="frecuencia">1</field>
+         </record>    
+        
+         <record model="tienda.tarea" id="tarea_2">
+            <field name="nombre_tarea">Alimentos</field>
+            <field name="descripcion">Preparar los alimentos</field>
+            <field name="tipo_tarea">Cocina</field>
+            <field name="frecuencia">3</field>
+         </record>     
+        
+         <record model="tienda.tarea" id="tarea_3">
+            <field name="nombre_tarea">Despensa</field>
+            <field name="descripcion">Comprar la despensa</field>
+            <field name="tipo_tarea">Compras</field>
+            <field name="frecuencia">1</field>
+         </record>    
+        
+         <record model="tienda.tarea" id="tarea_4">
+            <field name="nombre_tarea">Chequeo General</field>
+            <field name="descripcion">Chequeo médico general</field>
+            <field name="tipo_tarea">Servicio Médicos</field>
+            <field name="frecuencia">1</field>
+         </record>    
+        
+    </data>
+</odoo>
