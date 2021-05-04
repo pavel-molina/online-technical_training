@@ -5,6 +5,7 @@
             <field name="nombre_tarea">Limpieza</field>
             <field name="descripcion">Limpiar todos los pisos</field>
             <field name="tipo_tarea">Intendencia</field>
+            <field name="repite">1</field>
             <field name="frecuencia">1</field>
          </record>    
         
@@ -12,6 +13,7 @@
             <field name="nombre_tarea">Alimentos</field>
             <field name="descripcion">Preparar los alimentos</field>
             <field name="tipo_tarea">Cocina</field>
+            <field name="repite">1</field>
             <field name="frecuencia">3</field>
          </record>     
         
