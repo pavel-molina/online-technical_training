@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <data>
+        <record model="ir.ui.view" id="libro_view_form">
+            <field name="name">biblioteca.libro.form</field>
+            <field name="model">biblioteca.libro</field>
+            <field name="arch" type="xml">
+                <form string="Libro Form" >  
+                    <sheet>
+                        <h1><field name="titulo" /></h1>
+                        
+                        <group>
+                           <group>
+                               <field name="autor" />
+                           </group>
+                           <group>
+                               <field name="editorial" />
+                           </group>
+                           <group>
+                               <field name="anio_edicion" />
+                           </group>  
+                           <group>
+                               <field name="isbn" />
+                           </group> 
+                           <group>
+                               <field name="genero" />
+                           </group>  
+                           <group>
+                               <field name="numero_paginas" />
+                           </group>   
+                          
+                        </group>
+                        <notebook>
+                           <page string="Nota">
+                               <field name="nota" />
+                           </page>    
+                        </notebook>    
+                    </sheet>    
+                </form>    
+            </field>
+        </record>
+         
+        <record model="ir.ui.view" id="libro_view_list">
+            <field name="name">biblioteca.libro.list</field>
+            <field name="model">biblioteca.libro</field>
+            <field name="arch" type="xml">
+                <tree string="Libro List">
+                    <field name="titulo" />
+                    <field name="autor" />
+                    <field name="editorial" />
+                </tree>    
+            </field>
+        </record> 
+         
+        <record model="ir.ui.view" id="libro_view_search">
+            <field name="name">biblioteca.libro.search</field>
+            <field name="model">biblioteca.libro</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="autor" />
+                    <field name="isbn" />
+                </search>    
+            </field>
+        </record> 
+         
+    </data> 
+    
+</odoo>

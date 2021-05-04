@@ -14,3 +14,5 @@ class Libro(models.Model):
     isbn = fields.Char(string="ISBN", required=True)
     genero = fields.Char(string="Genero")
     numero_paginas = fields.Integer(string="Número de Páginas")
+    
+    nota = fields.Text(string="Nota")
