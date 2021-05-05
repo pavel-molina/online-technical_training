@@ -21,6 +21,7 @@
     'depends': ['base'],
     
     'data': [   
+       'views/admin_biblioteca_menuitems.xml', 
        'views/libro_views.xml',
     ],
     
