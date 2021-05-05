@@ -21,6 +21,8 @@
     'depends': ['base'],
     
     'data': [   
+       'security/biblioteca_security.xml',
+       'security/ir.model.access.csv',
        'views/admin_biblioteca_menuitems.xml', 
        'views/libro_views.xml',
     ],
