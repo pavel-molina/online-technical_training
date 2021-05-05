@@ -21,7 +21,7 @@
     'depends': ['base'],
     
     'data': [   
-       
+       'views/libro_views.xml',
     ],
     
     'demo':[
