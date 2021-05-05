@@ -20,7 +20,7 @@
     'depends': ['base'],
     
     'data': [   
-       
+        'views/tarea_views.xml',
     ],
     
     'demo':[

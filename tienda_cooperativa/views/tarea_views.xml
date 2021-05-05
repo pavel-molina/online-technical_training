@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <data>
+        <record model="ir.ui.view" id="tarea_view_form">
+            <field name="name">tienda.tarea.form</field>
+            <field name="model">tienda.tarea</field>
+            <field name="arch" type="xml">
+                <form string="Tarea Form" >  
+                    <sheet>
+                        <h1><field name="nombre_tarea" /></h1>
+                        <field name="hora_inicio" /> <field name="hora_fin" />
+                        
+                        <group>
+                           <group>
+                               <field name="descripcion" />
+                           </group>
+                           <group>
+                               <field name="tipo_tarea" />
+                           </group>
+                           <group>
+                               <field name="repite" />
+                           </group>  
+                           <group>
+                               <field name="frecuencia" />
+                           </group> 
+                          
+                        </group>
+                    
+                    </sheet>    
+                </form>    
+            </field>
+        </record>
+         
+        <record model="ir.ui.view" id="tarea_view_list">
+            <field name="name">tienda.tarea.list</field>
+            <field name="model">tienda.tarea</field>
+            <field name="arch" type="xml">
+                <tree string="Tarea List">
+                    <field name="nombre_tarea" />
+                    <field name="tipo_tarea" />
+                </tree>    
+            </field>
+        </record> 
+         
+        <record model="ir.ui.view" id="tarea_view_search">
+            <field name="name">tienda.tarea.search</field>
+            <field name="model">tienda.tarea</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="descripcion" />
+                    <field name="nombre_tarea" />
+                </search>    
+            </field>
+        </record> 
+         
+    </data> 
+    
+</odoo>
