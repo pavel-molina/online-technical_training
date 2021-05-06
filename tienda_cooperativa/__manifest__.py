@@ -20,6 +20,9 @@
     'depends': ['base'],
     
     'data': [   
+        'security/tienda_cooperativa_security.xml',
+        'security/ir.model.access.csv',
+        'views/tienda_cooperativa_menuitems.xml',
         'views/tarea_views.xml',
     ],
     

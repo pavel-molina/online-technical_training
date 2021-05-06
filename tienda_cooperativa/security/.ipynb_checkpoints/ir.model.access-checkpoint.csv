@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+tienda_admin,tienda admin,model_tienda_tarea,group_tienda_cooperativa_admin,1,1,1,1
+tienda_voluntario,tienda voluntario,model_tienda_tarea,group_tienda_cooperativa_voluntario,1,1,1,0
