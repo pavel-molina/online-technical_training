@@ -8,7 +8,8 @@
                 <form string="Tarea Form" >  
                     <sheet>
                         <h1><field name="nombre_tarea" /></h1>
-                        <field name="hora_inicio" /> <field name="hora_fin" />
+                        <field name="hora_inicio" t-options="{'format': 'HH / mm'}"/> 
+                        <field name="hora_fin" t-options="{'format': 'HH / mm'}"/>
                         
                         <group>
                            <group>
