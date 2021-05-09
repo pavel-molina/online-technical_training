@@ -33,6 +33,9 @@ class NaveEspacial(models.Model):
     
     active = fields.Boolean(string='Active', default=True)
     
+    mision_id = fields.Many2one(comodel_name='mision',
+                                string='Mision')
+    
     
     @api.constrains('ancho', 'longuitud')
     def _check_ancho(self):

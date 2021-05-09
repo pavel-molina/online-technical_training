@@ -9,7 +9,7 @@ class Mision(models.Model):
     
     nombre = fields.Char(string="Nombre", required=True)
     
-    nave_espacial = fields.Many2one(comodel_name='mision.nave',
+    nave_espacial_id = fields.Many2one(comodel_name='mision.nave',
                                        string='Nave Espacial',
                                        ondelete='cascade',
                                        required=True)

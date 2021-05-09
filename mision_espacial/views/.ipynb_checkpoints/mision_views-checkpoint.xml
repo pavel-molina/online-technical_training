@@ -11,7 +11,7 @@
                         <h1><field name="nombre" /></h1>
                         <group>
                            <group>
-                               <field name="nave_espacial" /> 
+                               <field name="nave_espacial_id" /> 
                            </group>  
                            <group>
                                <field name="fecha_lanzamiento" /> 
@@ -35,7 +35,7 @@
             <field name="arch" type="xml">
                 <tree string="Mision List">
                     <field name="nombre" />
-                    <field name="nave_espacial" />
+                    <field name="nave_espacial_id" />
                 </tree>    
             </field>
         </record> 

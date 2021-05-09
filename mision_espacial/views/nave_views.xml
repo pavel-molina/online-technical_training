@@ -25,7 +25,9 @@
                            <group>
                                <field name="active" />
                            </group>  
-                          
+                           <group>
+                               <field name="mision_id" />
+                           </group>
                         </group>
                         <notebook>
                            <page string="Descripcion">
