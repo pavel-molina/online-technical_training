@@ -26,6 +26,7 @@
         'security/ir.model.access.csv',
         'views/mision_espacial_menuitems.xml',
         'views/nave_views.xml',
+        'views/mision_views.xml',
         
     ],
     
