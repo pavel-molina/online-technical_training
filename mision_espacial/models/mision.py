@@ -7,7 +7,7 @@ class Mision(models.Model):
     _name = "mision"
     _description = "Misión"
     
-    nombre = fields.Char(string="Nombre", required=True)
+    name = fields.Char(string="Nombre", required=True)
     
     nave_espacial_id = fields.Many2one(comodel_name='mision.nave',
                                        string='Nave Espacial',
