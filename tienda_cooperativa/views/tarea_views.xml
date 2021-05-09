@@ -8,9 +8,16 @@
                 <form string="Tarea Form" >  
                     <sheet>
                         <h1><field name="nombre_tarea" /></h1>
-                        <field name="hora_inicio" widget="float_time"/> 
-                        <field name="hora_fin" widget="float_time"/>
-                        
+                        <group>
+                            <group>
+                                <field name="hora_inicio" widget="float_time"/> 
+                                <field name="hora_fin" widget="float_time"/>
+                            </group>
+                            <group>
+                                <field name="lider" /> 
+                                <field name="estado" />
+                            </group>
+                        </group>
                         <group>
                            <group>
                                <field name="descripcion" />

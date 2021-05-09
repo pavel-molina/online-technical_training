@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
+from odoo.exceptions import UserError, ValidationError
 
 class Libro(models.Model):
     
@@ -16,3 +17,9 @@ class Libro(models.Model):
     numero_paginas = fields.Integer(string="Número de Páginas")
     
     nota = fields.Text(string="Nota")
+    
+    
+    @api.onchange('isbn')
+    def _onchange_total_price(self):
+        if len(self.isbn) > 13:
+            raise ValidationError('El isbn debe ser maximo 13 caracteres')
