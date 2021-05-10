@@ -18,11 +18,8 @@ class Libro(models.Model):
     
     nota = fields.Text(string="Nota")
     
-    alquiler_id = fields.Many2one(comodel_name='biblioteca.alquiler',
-                                 string='Alquiler')
-    
     
     @api.onchange('isbn')
-    def _onchange_total_price(self):
+    def _onchange_isbn(self):
         if len(self.isbn) > 13:
             raise ValidationError('El isbn debe ser maximo 13 caracteres')

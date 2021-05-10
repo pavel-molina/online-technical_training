@@ -20,6 +20,6 @@ class Libro(models.Model):
     
     
     @api.onchange('isbn')
-    def _onchange_total_price(self):
+    def _onchange_isbn(self):
         if len(self.isbn) > 13:
             raise ValidationError('El isbn debe ser maximo 13 caracteres')
