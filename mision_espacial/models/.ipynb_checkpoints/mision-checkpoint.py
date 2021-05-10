@@ -22,4 +22,8 @@ class Mision(models.Model):
     fecha_regreso = fields.Date(string='Fecha Regreso',
                                 default=fields.Date.today)
     
+    cantidad_combustible = fields.Float(string="Cantidad Combustible")
+    
+    numero_motores = fields.Integer(string="Número Motores")
+    
     
