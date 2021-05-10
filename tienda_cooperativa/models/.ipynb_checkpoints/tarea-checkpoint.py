@@ -7,7 +7,7 @@ class Tarea(models.Model):
     _name = "tienda.tarea"
     _description = "Tarea"
     
-    nombre_tarea = fields.Char(string="Nombre de la Tarea", required=True)
+    name = fields.Char(string="Nombre de la Tarea", required=True)
     descripcion = fields.Text(string='Descripcion', required=True)
     tipo_tarea = fields.Char(string="Tipo de Tarea", required=True)
     # now=datetime.strftime(fields.Datetime.context_timestamp(self, datetime.now()), "%Y-%m-%d %H:%M:%S")
@@ -24,10 +24,14 @@ class Tarea(models.Model):
     estado = fields.Char(string="Estado", default='Borrador')
     lider = fields.Char(string="Lider")
     
+    
+    voluntarios_ids = fields.Many2many(comodel_name='res.partner', string='Voluntarios')
+    
+    
     @api.onchange('lider')
     def _onchange_total_price(self):
         if len(self.lider) > 0:
-            estado = "Listo"
+            self.estado = "Listo"
             
             
     
