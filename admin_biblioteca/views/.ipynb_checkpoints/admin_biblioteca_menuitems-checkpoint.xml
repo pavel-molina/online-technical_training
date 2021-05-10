@@ -13,12 +13,26 @@
              
         </record>    
         
+         <record model="ir.actions.act_window" id="alquiler_list_action">
+             <field name="name">Alquiler</field>
+             <field name="res_model">biblioteca.alquiler</field>
+             <field name="view_mode">tree,form</field>
+             <field name="help" type="html">
+                 <p class="o_view_nocontent_smiling_face">
+                     Registra el alquiler de los libros
+                 </p>    
+             </field>
+             
+        </record>    
+        
         
         <menuitem name="Admin Biblioteca" id="menu_admin_biblioteca" sequence="1" />
             
         <menuitem name="Biblioteca" id="submenu_biblioteca" parent="menu_admin_biblioteca" sequence="2" />
         
         <menuitem name="Libros" id="menuitem_libros" parent="submenu_biblioteca" sequence="3" action="libro_list_action"/>
+        
+        <menuitem name="Alquileres" id="menuitem_alquileres" parent="submenu_biblioteca" sequence="4" action="alquiler_list_action"/>
          
     </data>  
 </odoo>

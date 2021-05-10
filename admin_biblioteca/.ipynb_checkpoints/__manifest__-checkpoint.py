@@ -25,6 +25,7 @@
        'security/ir.model.access.csv',
        'views/admin_biblioteca_menuitems.xml', 
        'views/libro_views.xml',
+       'views/alquiler_views.xml',
     ],
     
     'demo':[
