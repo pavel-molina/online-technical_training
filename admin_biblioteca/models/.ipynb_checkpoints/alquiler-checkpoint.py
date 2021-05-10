@@ -9,6 +9,5 @@ class Alquiler(models.Model):
     
     cliente_id = fields.Many2one(comodel_name='res.partner', string='Tripulantes', required=True)
     
-    libros_ids = fields.One2many(comodel_name='biblioteca.libro',
-                                  inverse_name='alquiler_id',
+    libros_ids = fields.Many2many(comodel_name='biblioteca.libro',
                                   string='Libros') 

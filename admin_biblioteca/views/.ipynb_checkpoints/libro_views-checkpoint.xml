@@ -34,9 +34,6 @@
                            <page string="Nota">
                                <field name="nota" />
                            </page> 
-                           <page string="Alquiler">
-                               <field name="alquiler_id" />
-                           </page> 
                         </notebook>    
                     </sheet>    
                 </form>    
