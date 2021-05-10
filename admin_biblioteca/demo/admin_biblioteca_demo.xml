@@ -2,7 +2,7 @@
 <odoo>
     <data noupdate="1">
         <record model="biblioteca.libro" id="libro_1">
-            <field name="titulo">Estudio en Escarlata</field>
+            <field name="name">Estudio en Escarlata</field>
             <field name="autor">Arthur Conan Doyle</field>
             <field name="editorial">Planeta</field>
             <field name="anio_edicion">2015</field>
@@ -12,7 +12,7 @@
          </record>    
         
         <record model="biblioteca.libro" id="libro_2">
-            <field name="titulo">El Signo de los cuatro</field>
+            <field name="name">El Signo de los cuatro</field>
             <field name="autor">Arthur Conan Doyle</field>
             <field name="editorial">Planeta</field>
             <field name="anio_edicion">2019</field>
@@ -22,7 +22,7 @@
          </record>    
         
         <record model="biblioteca.libro" id="libro_3">
-            <field name="titulo">La Rebelión de la Granja</field>
+            <field name="name">La Rebelión de la Granja</field>
             <field name="autor">George Orwell</field>
             <field name="editorial">Trillas</field>
             <field name="anio_edicion">2015</field>
@@ -32,7 +32,7 @@
          </record>   
         
         <record model="biblioteca.libro" id="libro_4">
-            <field name="titulo">Caballo de Troya 1</field>
+            <field name="name">Caballo de Troya 1</field>
             <field name="autor">JJ Benítez</field>
             <field name="editorial">Planeta</field>
             <field name="anio_edicion">1984</field>
@@ -42,7 +42,7 @@
          </record>   
         
         <record model="biblioteca.libro" id="libro_5">
-            <field name="titulo">La física del futuro</field>
+            <field name="name">La física del futuro</field>
             <field name="autor">Michio Kaku</field>
             <field name="editorial">DEBATE</field>
             <field name="anio_edicion">211</field>

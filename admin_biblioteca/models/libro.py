@@ -8,7 +8,7 @@ class Libro(models.Model):
     _name = "biblioteca.libro"
     _description = "Libro"
     
-    titulo = fields.Char(string="Titulo", required=True)
+    name = fields.Char(string="Titulo", required=True)
     autor = fields.Char(string="Autor", required=True)
     editorial = fields.Char(string="Editorial", required=True)
     anio_edicion = fields.Integer(string="Año de Edición", required=True)

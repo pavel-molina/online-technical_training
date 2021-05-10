@@ -7,7 +7,7 @@
             <field name="arch" type="xml">
                 <form string="Libro Form" >  
                     <sheet>
-                        <h1><field name="titulo" /></h1>
+                        <h1><field name="name" /></h1>
                         
                         <group>
                            <group>
@@ -45,7 +45,7 @@
             <field name="model">biblioteca.libro</field>
             <field name="arch" type="xml">
                 <tree string="Libro List">
-                    <field name="titulo" />
+                    <field name="name" />
                     <field name="autor" />
                     <field name="editorial" />
                 </tree>    
