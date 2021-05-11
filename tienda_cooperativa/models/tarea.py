@@ -17,8 +17,8 @@ class Tarea(models.Model):
     
     #hora_inicio = fields.Float(string='Hora Inicio')
     #hora_fin =  fields.Float(string='Hora Fin')
-    hora_inicio = fields.Date(string='Hora Inicio', default=fields.Date.today)
-    hora_fin = fields.Date(string='Hora Fin', default=fields.Date.today)            
+    hora_inicio = fields.Datetime(string='Hora Inicio', default=fields.Date.today)
+    hora_fin = fields.Datetime(string='Hora Fin', default=fields.Date.today)            
                       
     
     repite = fields.Boolean(string='Repite')
