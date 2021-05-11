@@ -73,7 +73,6 @@
                 <gantt string="Ideas"
                    date_start="hora_inicio"
                    date_stop="hora_fin"
-                   progress="progress"
                    default_group_by="lider" />
             </field>
         </record>   
