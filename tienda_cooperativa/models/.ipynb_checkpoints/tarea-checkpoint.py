@@ -11,13 +11,14 @@ class Tarea(models.Model):
     descripcion = fields.Text(string='Descripcion', required=True)
     tipo_tarea = fields.Char(string="Tipo de Tarea", required=True)
     # now=datetime.strftime(fields.Datetime.context_timestamp(self, datetime.now()), "%Y-%m-%d %H:%M:%S")
-    hora_inicio = fields.Datetime(string='Hora Inicio', default=fields.Datetime.today)
-    hora_fin = fields.Datetime(string='Hora Fin', default=fields.Datetime.today)
+    #hora_inicio = fields.Datetime(string='Hora Inicio', default=fields.Datetime.today)
+    #hora_fin = fields.Datetime(string='Hora Fin', default=fields.Datetime.today)
     #hora_inicio = fields.Float(string='Time', compute="_compute_time")
     
     #hora_inicio = fields.Float(string='Hora Inicio')
     #hora_fin =  fields.Float(string='Hora Fin')
-                
+    hora_inicio = fields.Date(string='Hora Inicio', default=fields.Date.today)
+    hora_fin = fields.Date(string='Hora Fin', default=fields.Date.today)            
                       
     
     repite = fields.Boolean(string='Repite')
