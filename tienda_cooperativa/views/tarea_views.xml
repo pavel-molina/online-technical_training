@@ -12,8 +12,8 @@
                             <group>
                                 <!-- field name="hora_inicio" widget="float_time"/--> 
                                 <!-- field name="hora_fin" widget="float_time"/-->
-                                <field name="hora_inicio" widget="float_time"/> 
-                                <field name="hora_fin" widget="float_time"/>
+                                <field name="hora_inicio" /> 
+                                <field name="hora_fin" />
                             </group>
                             <group>
                                 <field name="lider" /> 
