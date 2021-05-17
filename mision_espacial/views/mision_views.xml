@@ -25,8 +25,11 @@
                         <notebook>
                            <page string="Tripulantes">
                                <field name="tripulates_ids" />
-                           </page>    
-                        </notebook>    
+                           </page>   
+                           <page string="Proyectos">
+                               <field name="proyectos_ids" />
+                           </page>  
+                        </notebook> 
                     </sheet>    
                 </form>    
             </field>

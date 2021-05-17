@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <data>
+         <record model="ir.ui.view" id="view_task_form2_inherit_mision">
+            <field name="name">project.task.form.inherit.mision</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.view_task_form2" />
+            <field name="arch" type="xml">
+               <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Misiones" >
+                       <field name="mision_id" >
+                           <tree>
+                              <field name="name" />
+                           </tree>    
+                       </field>
+                    </page>
+                </xpath>
+            </field>    
+             
+        </record>       
+               
+    </data>    
+</odoo>

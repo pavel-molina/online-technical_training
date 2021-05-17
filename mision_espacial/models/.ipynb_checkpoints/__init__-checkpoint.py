@@ -2,3 +2,4 @@
 
 from . import naveespacial
 from . import mision
+from . import proyecto
