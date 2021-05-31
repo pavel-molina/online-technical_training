@@ -27,7 +27,7 @@
         'views/mision_espacial_menuitems.xml',
         'views/nave_views.xml',
         'views/mision_views.xml',
-        
+        'views/proyectos_views_inherit.xml',
     ],
     
     'demo':[

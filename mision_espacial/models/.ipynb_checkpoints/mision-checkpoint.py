@@ -26,6 +26,6 @@ class Mision(models.Model):
     
     numero_motores = fields.Integer(string="Número Motores")
     
-    proyectos_ids = fields.One2many(comodel_name='project.project',
+    proyectos_ids = fields.One2many(comodel_name='project.task',
                                    inverse_name='mision_id',
                                    string='Proyectos')
