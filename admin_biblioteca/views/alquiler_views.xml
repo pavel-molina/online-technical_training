@@ -34,17 +34,18 @@
             </field>
         </record> 
          
-        <!-- record model="ir.ui.view" id="alquiler_view_map">
+        <record model="ir.ui.view" id="alquiler_view_map">
             <field name="name">biblioteca.alquiler.view.map</field>
             <field name="model">biblioteca.alquiler</field>
             <field name="arch" type="xml">
                 <map res_partner="cliente_id">
                     <marker-popup>
                         <field name="cliente_id" string="Cliente"/>
+                        <field name="libros_ids" string="Libros"/>
                     </marker-popup>
                 </map>
             </field>
-        </record -->   
+        </record>   
       
     </data> 
 </odoo>

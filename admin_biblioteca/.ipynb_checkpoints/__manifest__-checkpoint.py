@@ -18,7 +18,7 @@
     
     'version': '0.1',
     
-    'depends': ['base'],
+    'depends': ['base','website_google_map'],
     
     'data': [   
        'security/biblioteca_security.xml',

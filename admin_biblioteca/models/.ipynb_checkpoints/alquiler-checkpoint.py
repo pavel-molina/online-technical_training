@@ -9,4 +9,7 @@ class Alquiler(models.Model):
     
     cliente_id = fields.Many2one(comodel_name='res.partner', string='Cliente', required=True)
     
-    libros_ids = fields.Many2many(comodel_name='biblioteca.libro', string='Libros') 
+    # con Many2many no se podian ver los titulos de los libros en el popup de la vista tipo Mapa
+    #libros_ids = fields.Many2many(comodel_name='biblioteca.libro', string='Libros')
+    
+    libros_ids = fields.Many2one(comodel_name='biblioteca.libro', string='Libros') 
