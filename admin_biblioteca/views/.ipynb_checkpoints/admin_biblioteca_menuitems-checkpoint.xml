@@ -25,6 +25,18 @@
              
         </record>    
         
+        <record model="ir.actions.act_window" id="librocopia_list_action">
+             <field name="name">LibroCopia</field>
+             <field name="res_model">biblioteca.librocopia</field>
+             <field name="view_mode">tree,form</field>
+             <field name="help" type="html">
+                 <p class="o_view_nocontent_smiling_face">
+                     Registra tu primer libro copia
+                 </p>    
+             </field>
+             
+        </record>   
+        
         
         <menuitem name="Admin Biblioteca" id="menu_admin_biblioteca" sequence="1" />
             
@@ -33,6 +45,8 @@
         <menuitem name="Libros" id="menuitem_libros" parent="submenu_biblioteca" sequence="3" action="libro_list_action"/>
         
         <menuitem name="Alquileres" id="menuitem_alquileres" parent="submenu_biblioteca" sequence="4" action="alquiler_list_action"/>
+        
+        <menuitem name="Libros Copias" id="menuitem_libros_copias" parent="submenu_biblioteca" sequence="5" action="librocopia_list_action"/>
          
     </data>  
 </odoo>

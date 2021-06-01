@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <data>
+        <record model="ir.ui.view" id="librocopia_view_form">
+            <field name="name">biblioteca.librocopia.form</field>
+            <field name="model">biblioteca.librocopia</field>
+            <field name="arch" type="xml">
+                <form string="Libro Form" >  
+                    <sheet>
+                       
+                        <group>
+                               <field name="libro_id" />
+                        </group>
+                        <group>
+                           <group>
+                               <field name="autor" />
+                           </group>
+                           <group>
+                               <field name="editorial" />
+                           </group>
+                           <group>
+                               <field name="anio_edicion" />
+                           </group>  
+                           <group>
+                               <field name="isbn" />
+                           </group> 
+                           <group>
+                               <field name="genero" />
+                           </group>  
+                           <group>
+                               <field name="numero_paginas" />
+                           </group>   
+                          
+                        </group>
+                                                 
+                        <group>
+                               <field name="referencia" />
+                        </group> 
+                     
+                        <notebook>
+                           <page string="Nota">
+                               <field name="nota" />
+                           </page> 
+                        </notebook>    
+                    </sheet>    
+                </form>    
+            </field>
+        </record>
+         
+        <record model="ir.ui.view" id="librocopia_view_list">
+            <field name="name">biblioteca.librocopia.list</field>
+            <field name="model">biblioteca.librocopia</field>
+            <field name="arch" type="xml">
+                <tree string="Libro List">
+                    <field name="name" />
+                    <field name="autor" />
+                    <field name="editorial" />
+                    <field name="referencia" />
+                </tree>    
+            </field>
+        </record> 
+         
+        <record model="ir.ui.view" id="librocopia_view_search">
+            <field name="name">biblioteca.librocopia.search</field>
+            <field name="model">biblioteca.librocopia</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="autor" />
+                    <field name="isbn" />
+                </search>    
+            </field>
+        </record> 
+         
+    </data> 
+    
+</odoo>

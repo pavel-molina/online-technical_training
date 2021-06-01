@@ -12,4 +12,5 @@ class Alquiler(models.Model):
     # con Many2many no se podian ver los titulos de los libros en el popup de la vista tipo Mapa
     #libros_ids = fields.Many2many(comodel_name='biblioteca.libro', string='Libros')
     
-    libros_ids = fields.Many2one(comodel_name='biblioteca.libro', string='Libros') 
+    #libros_ids = fields.Many2one(comodel_name='biblioteca.libro', string='Libros') 
+    libros_ids = fields.Many2one(comodel_name='biblioteca.librocopia', string='Libros') 
