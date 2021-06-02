@@ -67,6 +67,7 @@
                 <search>
                     <field name="autor" />
                     <field name="isbn" />
+                    <field name="referencia" />
                 </search>    
             </field>
         </record> 
